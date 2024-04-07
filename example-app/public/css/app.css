@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #666;
+}
+
+.btn1 {
+    background-color: red;
+    animation: rainbow 5s infinite;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+@keyframes rainbow {
+    0% {background-color: red;}
+    14% {background-color: orange;}
+    28% {background-color: yellow;}
+    42% {background-color: lime;}
+    57% {background-color: blue;}
+    71% {background-color: indigo;}
+    85% {background-color: violet;}
+    100% {background-color: red;}
+}
+
+
+
+.list-group-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+}
